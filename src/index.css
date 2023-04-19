@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.active {
+  @apply text-lime-500
+}
+
+.default {
+  @apply text-red-500
+}
+
+.navBar {
+  @apply border-2 p-3 border-solid border-orange-400 rounded-lg list-none
+}
+
+.hospitalContainer {
+  @apply p-3 md:py-4 md:px-12;
+}
